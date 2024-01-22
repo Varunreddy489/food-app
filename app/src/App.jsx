@@ -18,7 +18,7 @@ const App = () => {
       try {
         const response = await fetch(BASE_URL);
         const json = await response.json();
-
+x
         setData(json);
         setFilteredData(json);
         setLoading(false);
